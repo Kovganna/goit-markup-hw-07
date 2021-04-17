@@ -255,7 +255,7 @@ img {
 
 /* :hover & :focus */
 
-.site-item a:hover,
+/* .site-item a:hover,
 .site-item a:focus,
 .site-nav a:hover,
 .site-nav a:focus,
@@ -267,7 +267,7 @@ img {
 .footer-list a:focus {
   color: var(--accent-color);
   fill: currentColor;
-}
+} */
 
 
 
@@ -561,6 +561,8 @@ img {
   margin-bottom: 50px;
 }
 
+/* clients-list */
+
 .clients-list {
   margin: 0;
   padding: 0;
@@ -570,7 +572,7 @@ img {
   margin-left: -30px;
 }
 
-.clients-thumb {
+.clients-list__thumb {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -583,19 +585,19 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.client-icon {
+.clients-list__icon {
   display: flex;
   fill: currentColor;
 }
 
-.clients-list > .clients-item {
+.clients-list > .clients-list__item {
   flex-basis: calc(100% / 6-30px);
   margin-top: 30px;
   margin-left: 30px;
 }
 
-.clients-item a:hover,
-.clients-item a:focus {
+.clients-list__item a:hover,
+.clients-list__item a:focus {
   color: var(--accent-color);
   border: 1px solid var(--accent-color);
 }
@@ -677,6 +679,16 @@ footer {
 .footer-list {
   padding-left: 0;
 }
+
+.footer-adress :hover,
+.footer-adress :focus,
+.footer-link a:hover,
+.footer-link a:focus,
+.footer-list a:hover,
+.footer-list a:focus {
+  color: var(--accent-color);
+  fill: currentColor;
+} 
 
 /* присоединяйтесь */
 
