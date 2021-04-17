@@ -91,6 +91,16 @@ img {
   padding-top: 94px;
 }
 
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
 /* шапка */
 
 .head {
@@ -243,32 +253,10 @@ img {
 }
 
 
+/* :hover & :focus */
 
-
-
-.button {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-  cursor: pointer;
-}
-
-
-.studio-link {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  color: var(--primary-white-color);
-}
-
-
-/* .site-item a:hover,
+.site-item a:hover,
 .site-item a:focus,
-.
 .site-nav a:hover,
 .site-nav a:focus,
 .footer-adress :hover,
@@ -279,7 +267,7 @@ img {
 .footer-list a:focus {
   color: var(--accent-color);
   fill: currentColor;
-} */
+}
 
 
 
@@ -328,13 +316,44 @@ img {
 
 /* Наши положительные качества*/
 
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.qualities {
+  padding-bottom: 0px;
+}
 
 /* .punct-image {
   width: 70px;
   height: 70px;
 } */
 
-.image-box {
+/* quality */
+
+.quality {
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-right: -30px;
+}
+
+.quality > .quality__punct {
+  flex-basis: calc(100% / 4 - 30px);
+  margin-right: 30px;
+}
+
+.quality__image-box {
   margin-bottom: 30px;
   width: 270px;
   height: 120px;
@@ -365,22 +384,7 @@ img {
   background-image: url(../img/astronaut.png);
 }
 
-.qualities {
-  padding-bottom: 0px;
-}
-
-.visually-hidden {
-  position: absolute !important;
-  clip: rect(1px 1px 1px 1px);
-  clip: rect(1px, 1px, 1px, 1px);
-  padding: 0 !important;
-  border: 0 !important;
-  height: 1px !important;
-  width: 1px !important;
-  overflow: hidden;
-}
-
-.list-title {
+.quality__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.4;
@@ -390,23 +394,9 @@ img {
   padding-bottom: 10px;
 }
 
-.list-text {
+.quality__text {
   margin: 0;
   padding: 0;
-}
-.list-puncts {
-  padding: 0;
-  margin: 0;
-
-  display: flex;
-  flex-wrap: wrap;
-
-  margin-right: -30px;
-}
-
-.list-puncts > .punct {
-  flex-basis: calc(100% / 4 - 30px);
-  margin-right: 30px;
 }
 
 /* Чем мы занимаемся */
@@ -609,6 +599,15 @@ img {
 footer {
   background-color: var(--hero-bg-color);
 }
+
+.studio-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--primary-white-color);
+}
+
 .container-item {
   display: inline-flex;
   flex-wrap: nowrap;
