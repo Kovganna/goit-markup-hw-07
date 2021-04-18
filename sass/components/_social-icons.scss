@@ -1,6 +1,11 @@
 .social-icons__item {
     display: inline-flex;
   }
+
+  .&:not(:last-child) {
+    margin-right: 10px;
+  }
+
   .social-icons .social-icons__icon {
     width: 20px;
     height: 20px;
@@ -20,18 +25,14 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
-  
-  .social-icons__item:not(:last-child) {
-    margin-right: 10px;
-  }
-  
-  .social-icons__link:hover,
-  .social-icons__link:focus {
+    
+  &:hover,
+  &:focus {
     background-color: $accent-color;
     border: 50%;
   }
   
-  .social-icons__link:hover .social-icons__icon,
-  .social-icons__link:focus .social-icons__icon {
+  &:hover .social-icons__icon,
+  &:focus .social-icons__icon {
     fill: $primary-white-color;
   }

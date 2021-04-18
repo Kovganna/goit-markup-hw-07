@@ -57,7 +57,7 @@
     border: none;
   }
   
-  .subscription-form__button > .subscription-form__icon {
+  & > .subscription-form__icon {
     margin-left: 10px;
     fill: $primary-white-color;
   }
