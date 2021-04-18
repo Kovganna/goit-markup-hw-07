@@ -275,7 +275,7 @@ img {
 
 /* герой */
 
-.decision {
+/* .decision {
   margin: auto;
   text-align: center;
   padding-bottom: 200px;
@@ -314,11 +314,11 @@ img {
   min-width: 200px;
   padding: 10px 32px;
   border: none;
-}
+} */
 
 /* Наши положительные качества*/
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
   clip: rect(1px, 1px, 1px, 1px);
@@ -331,7 +331,7 @@ img {
 
 .qualities {
   padding-bottom: 0px;
-} 
+}  */
 
 /* .punct-image {
   width: 70px;
@@ -340,7 +340,7 @@ img {
 
 /* quality */
 
- .quality {
+ /* .quality {
   padding: 0;
   margin: 0;
 
@@ -399,17 +399,17 @@ img {
 .quality__text {
   margin: 0;
   padding: 0;
-}
+} */
 
 /* Чем мы занимаемся */
 
-.gallery {
+/* .gallery {
   padding-top: 83px;
-}
+} */
 
 /* ability-list */
 
-.ability-list {
+/* .ability-list {
   padding: 0;
   margin: 0;
 
@@ -443,7 +443,7 @@ img {
   text-align: center;
   text-transform: uppercase;
   color: var(--primary-white-color);
-}
+} */
 
 /* Наша команда */
 

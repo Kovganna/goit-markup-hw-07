@@ -23,12 +23,12 @@
     margin-right: -30px;
   }
   
- & > &__punct {
+  .quality > .quality__punct {
     flex-basis: calc(100% / 4 - 30px);
     margin-right: 30px;
   }
   
-  &__image-box {
+  .quality__image-box {
     margin-bottom: 30px;
     width: 270px;
     height: 120px;
@@ -44,22 +44,22 @@
     background-position: center;
   }
   
-//   .sputnic {
-//     background-image: url(../img/sputnic.png);
-//   }
-//   .time {
-//     background-image: url(../img/time.png);
-//   }
+  .sputnic {
+    background-image: url(../img/sputnic.png);
+  }
+  .time {
+    background-image: url(../img/time.png);
+  }
   
-//   .computer {
-//     background-image: url(../img/computer.png);
-//   }
+  .computer {
+    background-image: url(../img/computer.png);
+  }
   
-//   .astronaut {
-//     background-image: url(../img/astronaut.png);
-//   }
+  .astronaut {
+    background-image: url(../img/astronaut.png);
+  }
   
-  &__title {
+  .quality__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.4;
@@ -69,7 +69,7 @@
     padding-bottom: 10px;
   }
   
-  &__text {
+  .quality__text {
     margin: 0;
     padding: 0;
   }

@@ -4,23 +4,23 @@
     align-items: center;
   }
   
-  &__item {
+  .connection__item {
     align-items: center;
     display: inline-flex;
   }   
   
-  &:hover &__icon-mail,
-  &:focus &__icon-mail,
-  &:hover &__icon-tel,
-  &:focus &__icon-tel,
-  &__item a:hover,
-  &__item a:focus {
+  .connection:hover .connection__icon-mail,
+  .connection:focus .connection__icon-mail,
+  .connection:hover .connection__icon-tel,
+  .connection:focus .connection__icon-tel,
+  .connection__item a:hover,
+  .connection__item a:focus {
     color: $accent-color;
     fill: currentColor;
   }
   
-  &__mail,
-  &__tel {
+  .connection__mail,
+  .connection__tel {
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -30,7 +30,7 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  &__icon-mail {
+  .connection__icon-mail {
     margin-right: 11px;
     fill: $icon-color-header;
     justify-content: center;
@@ -38,7 +38,7 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  &__icon-tel {
+  .connection__icon-tel {
     margin-left: 30px;
     margin-right: 10px;
     fill: $icon-color-header;

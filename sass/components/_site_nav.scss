@@ -8,16 +8,16 @@
     position: relative;
   }
   
-  &__link {
+  .site-nav__link {
     padding-left: 0;
   }
     
-  &__item {
+  .site-nav__item {
     align-items: center;
     display: inline-flex;
   }
   
-  &__link {
+  .site-nav__link {
     padding: 32px 0;
     color: inherit;
     font-weight: 500;
@@ -28,13 +28,23 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  &__item + &__item {
+  .site-nav__item + .site-nav__item {
     margin-left: 50px;
   }
   
-  &__item a:hover,
-  &__item a:focus{
+  .site-nav__item a:hover,
+  .site-nav__item a:focus{
     color: $accent-color;
     fill: currentColor;
   }
   
+  .decor::after {
+    display: block;
+    content: "";
+    width: 48px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: currentColor;
+    position: absolute;
+    top: 77px;
+  }
