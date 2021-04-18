@@ -447,7 +447,7 @@ img {
 
 /* Наша команда */
 
-.ability,
+/* .ability,
 .comunity {
   font-weight: 700;
   font-size: 36px;
@@ -460,11 +460,11 @@ img {
 
 .teem {
   background-color: var(--secondary-bg-color);
-}
+} */
 
 /* teem-list */
 
-.teem-list {
+/* .teem-list {
   padding: 0;
   margin: 0;
 
@@ -505,11 +505,11 @@ img {
   line-height: 1.19;
   text-align: center;
   padding-bottom: 16px;
-}
+} */
 
 /* social-icons */
 
-.social-icons__item {
+/* .social-icons__item {
   display: inline-flex;
 }
 .social-icons .social-icons__icon {
@@ -545,11 +545,11 @@ img {
 .social-icons__link:hover .social-icons__icon,
 .social-icons__link:focus .social-icons__icon {
   fill: var(--primary-white-color);
-}
+} */
 
 /* Клиенты */
 
-.clients {
+/* .clients {
   padding-bottom: 94px;
   padding-top: 94px;
 }
@@ -565,7 +565,7 @@ img {
 
 /* clients-list */
 
-.clients-list {
+/*.clients-list {
   margin: 0;
   padding: 0;
   display: flex;
@@ -602,15 +602,15 @@ img {
 .clients-list__item a:focus {
   color: var(--accent-color);
   border: 1px solid var(--accent-color);
-}
+} */
 
 /* подвал */
 
-footer {
+/* footer {
   background-color: var(--hero-bg-color);
 }
 
-.studio-link {
+.footer-link__studio-link {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -636,7 +636,7 @@ footer {
 
 /* footer-list */
 
-.footer-list {
+/*.footer-list {
   padding-left: 0;
 }
 
@@ -658,7 +658,7 @@ footer {
 .footer-list a:focus {
   color: var(--accent-color);
   fill: currentColor;
-} 
+} */
 
 
 /* .container-item {
@@ -667,7 +667,7 @@ footer {
 } */
 
 
-.footer-block .container {
+/*.footer-block .container {
   padding-bottom: 60px;
   padding-top: 60px;
   display: flex;
@@ -698,7 +698,7 @@ footer {
 .footer-list a:focus {
   color: var(--accent-color);
   fill: currentColor;
-} 
+}  */
 
 /* присоединяйтесь */
 
@@ -706,7 +706,7 @@ footer {
 
 /* footer-social */
 
-.footer-social__link .footer-social__icon {
+/* .footer-social__link .footer-social__icon {
   width: 20px;
   height: 20px;
   fill: var(--icon-color);
@@ -757,20 +757,20 @@ footer {
   text-transform: uppercase;
   color: var(--primary-white-color);
   margin-bottom: 30px;
-}
+} */
 
 
 
 /* Подписывайтесь */
 
-.subscription {
+/* .subscription {
   padding-top: 12px;
   margin: 0;
-}
+} */
 
 /* subscription-form */
 
-.subscription-form__titel {
+/* .subscription-form__titel {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -825,7 +825,7 @@ footer {
 .subscription-form__button > .subscription-form__icon {
   margin-left: 10px;
   fill: var(--primary-white-color);
-}
+} */
 
 /*  модальное окно */
 
