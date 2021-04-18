@@ -4,21 +4,22 @@
     align-items: center;
   }
   
-  .connection__item {
-    align-items: center;
-    display: inline-flex;
-  }   
-  
-  .connection:hover .connection__icon-mail,
-  .connection:focus .connection__icon-mail,
-  .connection:hover .connection__icon-tel,
-  .connection:focus .connection__icon-tel,
+   
+  &:hover .connection__icon-mail,
+  &:focus .connection__icon-mail,
+  &:hover .connection__icon-tel,
+  &:focus .connection__icon-tel,
   .connection__item a:hover,
   .connection__item a:focus {
     color: $accent-color;
     fill: currentColor;
   }
   
+  .connection__item {
+    align-items: center;
+    display: inline-flex;
+  }   
+
   .connection__mail,
   .connection__tel {
     font-weight: 500;

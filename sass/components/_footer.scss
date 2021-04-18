@@ -39,13 +39,19 @@ footer {
   .footer-list {
     padding-left: 0;
   }
+
+  & a:hover,
+  & a:focus {
+    color: $accent-color;
+    fill: currentColor;
+  } 
   
-  .footer-lis__mail {
+  .footer-list__mail {
     width: 231px;
     margin-bottom: 9px;
   }
   
-  .footer-list__mail,
+  &,
   .footer-list__tel {
     font-style: normal;
     color: rgba(255, 255, 255, 0.6);
@@ -54,12 +60,6 @@ footer {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .footer-list a:hover,
-  .footer-list a:focus {
-    color: $accent-color;
-    fill: currentColor;
-  } 
-   
   .footer-block .container {
     padding-bottom: 60px;
     padding-top: 60px;
