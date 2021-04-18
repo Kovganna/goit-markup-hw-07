@@ -1,0 +1,49 @@
+.connection {
+    display: inline-flex;
+    margin-left: auto;
+    align-items: center;
+  }
+  
+  &__item {
+    align-items: center;
+    display: inline-flex;
+  }   
+  
+  &:hover &__icon-mail,
+  &:focus &__icon-mail,
+  &:hover &__icon-tel,
+  &:focus &__icon-tel,
+  &__item a:hover,
+  &__item a:focus {
+    color: $accent-color;
+    fill: currentColor;
+  }
+  
+  &__mail,
+  &__tel {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: $primary-text-color;
+    display: flex;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  &__icon-mail {
+    margin-right: 11px;
+    fill: $icon-color-header;
+    justify-content: center;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  &__icon-tel {
+    margin-left: 30px;
+    margin-right: 10px;
+    fill: $icon-color-header;
+    justify-content: center;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  

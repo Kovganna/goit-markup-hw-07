@@ -1,5 +1,5 @@
-body {
-    background-color: tomato;
-    color: violet;
-    border: 1px solid blue;
-}
+@import "./utils/variables";
+@import "./utils/base";
+@import "./components/hero";
+@import "./components/site_nav";
+@import "./components/connection";
